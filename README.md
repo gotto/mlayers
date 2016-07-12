@@ -21,7 +21,9 @@ index.html
 ```
 
 index_template.php
-```DOCTYPE HTML>
+```html
+<?php $layer[] = __FILE__; require_once 'mlayers.php' ?>
+<!DOCTYPE HTML>
 <html lang="ja">
 <head>
 <meta charset="utf-8">
