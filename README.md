@@ -15,7 +15,7 @@ index.html
 <meta charset="utf-8">
 </head>
 <body>
-<div magic-data="文章"></div>
+<div magic-data="文章">この文章が下位レイヤーに流し込まれます。</div>
 </body>
 </html>
 ```
@@ -29,7 +29,9 @@ index_template.php
 <meta charset="utf-8">
 </head>
 <body>
-<div magic="文章"></div>
+<div>
+  <div magic="文章"></div>
+</div>
 </body>
 </html
 ```
