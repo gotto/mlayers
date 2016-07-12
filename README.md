@@ -33,5 +33,5 @@ index_template.php
   <div magic="文章"></div>
 </div>
 </body>
-</html
+</html>
 ```
