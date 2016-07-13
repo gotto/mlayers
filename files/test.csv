@@ -1,0 +1,15 @@
+名前,変更点
+mextends1,初期バージョン
+mextends2,繰り返し機能
+mextends3,マルチレイヤーテンプレート
+mextends4,プラグイン
+mextends5,"単一レイヤー表示
+magic→magic-data
+magic-slot→magic
+magic-repeat→magic-list
+カラーリングつきソース表示"
+mextends6,"$dont_autorunの追加
+ソース表示のコードのリファクタリング"
+mlayers7,プログラム名をmextends.phpからmlayersに変更
+mlayers8,"$class[]を$layerに変更
+include (text|pre|html|csv)の追加"

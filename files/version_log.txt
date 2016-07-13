@@ -1,0 +1,58 @@
+mextends1
+	初期バージョン
+
+mextends2
+	繰り返し機能
+
+mextends3
+	マルチレイヤーテンプレート
+
+mextends4
+	プラグイン
+
+mextends5
+	単一レイヤー表示
+	magic→magic-data
+	magic-slot→magic
+	magic-repeat→magic-list
+	カラーリングつきソース表示
+
+mextends6
+	$dont_autorunの追加
+	ソース表示のコードのリファクタリング
+
+mlayers7
+	プログラム名をmextends.phpからmlayersに変更
+
+mlayers8
+	$class[]を$layerに変更
+	include (text|pre|html)の追加
+
+mlayers9
+	magic-list="名前"→magic="リスト|名前"
+	magic="include ファイル"→magic="インクルード|ファイル"
+	空のリストが表示されるバグ修正
+
+mlayers10
+	magic="アトリビュート|〜"の追加
+
+mlayers11
+	チェックフラグを変数からファイルに変更 /tmp/mlayers-check
+
+mlayers12
+	GET/POSTを受け取る関数の追加
+
+mlayers13
+	プログラムレイヤーのAIP変更とリストの不具合の解消
+
+mlayers14
+	ソースの最後に改行があると空のタグが生成される不具合の解消
+
+mlayers15
+	レイヤー表示などチェック機能の分離
+
+mlayers16
+	magic-data="アトリビュート|〜"と&magic;の追加
+
+mlayers17
+	magic="リスト|〜"が未定義の時にテンプレートをそのまま表示するように変更
